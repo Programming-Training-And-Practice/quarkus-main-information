@@ -71,7 +71,10 @@
 * `echo $GRAALVM_HOME`
 * `export PATH=$GRAALVM_HOME/bin:$PATH`.<br/><br/>
 * `source /home/trl/.profile`.<br/><br/>
-* `$GRAALVM_HOME/bin/gu install --file native-image-installable-svm-svmee-java11-linux-amd64-20.0.0.jar`
+* `$GRAALVM_HOME/bin/gu install --file native-image-installable-svm-svmee-java11-linux-amd64-20.0.0.jar`<br/><br/>
+
+* Or add a line "GRAALVM_HOME=$JAVA_HOME" in a file with a name ".profile". This file is in the home directory. 
+  And when you change "JAVA_HOME", the "GRAALVM_HOME" will change.
 
 
 
