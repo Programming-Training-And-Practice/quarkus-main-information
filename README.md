@@ -35,6 +35,7 @@
 
 
 ## Maven Commands.
+* `mvn io.quarkus:quarkus-maven-plugin:create`
 * `mvn quarkus:dev` Running the application in dev mode.
 * `mvn compile quarkus:dev` Compile the application in dev mode.
 * `mvn quarkus:list-extensions` Show list of extensions.
@@ -49,6 +50,7 @@
 
 ## Building a native executable.
 * [Building a native executable.](https://quarkus.io/guides/building-native-image)
+* [TIPS FOR WRITING NATIVE APPLICATIONS](https://quarkus.io/guides/writing-native-applications-tips)
 
 
 
