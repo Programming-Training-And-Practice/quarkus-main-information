@@ -40,15 +40,25 @@
 * `mvn compile quarkus:dev` Compile the application in dev mode.
 * `mvn quarkus:list-extensions` Show list of extensions.
 * `mvn quarkus:add-extension -Dextensions="groupId:artifactId"` Adding extension.
+* `mvn quarkus:add-extension -Dextensions="hibernate-*"` You can install all extensions which match a globbing pattern.
 * `mvn package` For packaging application. Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/lib` directory.
-* `mvn package -Pnative -Dquarkus.native.container-build=true` You can use Docker to build the native executable.
 * `mvn package -Pnative` Compilation into native code.
+* `mvn verify -Pnative`
+* `mvn verify -Pnative -Dquarkus.test.native-image-profile=test`
+* `mvn failsafe:integration-test`
+* `mvn package -Pnative -Dquarkus.native.container-build=true` You can use Docker to build the native executable.
+* `mvn quarkus-bootstrap:build-tree` Displays the build dependency tree for the application.
+* `mvn package -Pnative -Dquarkus.native.container-build=true` Support only JDK8
+* `mvnw package -Pnative -Dquarkus.native.container-runtime=docker`
+* `mvnw package -Pnative -Dquarkus.native.container-runtime=podman`
 
 
 
 
 
 ## Building a native executable.
+* The native executable for our application will contain the application code, required libraries, Java APIs, and a 
+  reduced version of a VM. The smaller VM base improves the startup time of the application and produces a minimal disk footprint.
 * [Building a native executable.](https://quarkus.io/guides/building-native-image)
 * [TIPS FOR WRITING NATIVE APPLICATIONS](https://quarkus.io/guides/writing-native-applications-tips)
 
