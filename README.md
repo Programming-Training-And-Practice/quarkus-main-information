@@ -9,6 +9,9 @@
 * [Documentation.](#documentation)
 * [Maven Commands.](#maven-commands)
 * [Build a native executable.](#building-a-native-executable)
+* [Articles.](#articles)
+* [Conferences.](#conferences)
+* [Conference Speakers.](#conference-speakers)
 * [Help.](#help)
 
 
@@ -85,6 +88,25 @@
 
 * Or add a line "GRAALVM_HOME=$JAVA_HOME" in a file with a name ".profile". This file is in the home directory. 
   And when you change "JAVA_HOME", the "GRAALVM_HOME" will change.
+
+
+
+
+
+## Articles.
+* [Quarkus — новый взгляд на Cloud Native Java. Russian Version.](https://habr.com/ru/company/piter/blog/482968/)
+
+
+
+
+
+## Conferences.
+* [Secure your Quarkus Applications by Sebastien Blanc.](https://www.youtube.com/watch?v=tWHdkpVagXA)
+
+
+
+
+## Conference Speakers.
 
 
 
