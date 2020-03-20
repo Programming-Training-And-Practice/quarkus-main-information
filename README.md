@@ -8,6 +8,7 @@
 * [About.](#about)
 * [Documentation.](#documentation)
 * [Maven Commands.](#maven-commands)
+* [Native Image.](#native-image)
 * [Build a native executable.](#building-a-native-executable)
 * [Articles.](#articles)
 * [Conferences.](#conferences)
@@ -54,6 +55,15 @@
 * `mvn package -Pnative -Dquarkus.native.container-build=true` Support only JDK8
 * `mvnw package -Pnative -Dquarkus.native.container-runtime=docker`
 * `mvnw package -Pnative -Dquarkus.native.container-runtime=podman`
+
+
+
+
+
+## Native Image.
+* Need registration: reflection, dynamic proxy.
+* Not supported: Dynamic Class Loading, Method Handlers, Invoke Dynamic.
+* Different: Static Initialization on build-time.
 
 
 
