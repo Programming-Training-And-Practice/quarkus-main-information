@@ -7,6 +7,7 @@
 ## Contents at a Glance.
 * [About.](#about)
 * [Documentation.](#documentation)
+* [Benefits.](#benefits)
 * [Maven Commands.](#maven-commands)
 * [Native Image.](#native-image)
 * [Build a native executable.](#building-a-native-executable)
@@ -34,6 +35,16 @@
 * [EXTENSIONS.](https://quarkus.io/extensions/)
 * [Platform Dependent Application.]()
  
+
+
+
+
+## Benefits.
+* Developer Joy.
+* Supersonic Subatomic Java.
+* Unifies imperative and reactive.
+* Best of breed libraries and standards.
+
 
 
 
